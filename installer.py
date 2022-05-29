@@ -17,8 +17,8 @@ elif rn == '2':
     os.system("pip3 install cfscrape")
     os.system("pip3 install datetime")
     os.system("pip3 install ssl")
-    os.system("pip3 install threading")
-    os.system("pip3 install imcplib")
+    os.system("pip3 install thread6")
+    os.system("pip3 install icmplib")
     os.system("pip3 install scapy")
 else:
     print("?")
