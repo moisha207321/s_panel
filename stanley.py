@@ -13,7 +13,8 @@ proxys = open('proxies.txt').readlines()
 bots = len(proxys)
 
 def ascii_vro():
-
+    clear()
+    
 def si():
     print('\x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233m1337 \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mWelcome to Stanley CnC! \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mGithub: SkyWtkh-weird1337 \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mNew Methods \x1b[38;2;0;255;255m+ \x1b[38;2;233;233;233mNew UI!')
     print("")
